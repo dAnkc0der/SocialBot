@@ -1,0 +1,3 @@
+py -3 -m venv <name> - to create virtual environment within vscode in comand prompt terminal
+.\venv\Scripts\python.exe - if interpreter rolls back to old state do this to change the path
+venv\Scripts\activate.bat - to activate the script . do this each time to activate the virtual environment
