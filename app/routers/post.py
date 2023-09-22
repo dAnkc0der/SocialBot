@@ -6,10 +6,7 @@ from sqlalchemy import func
 from .. import models, schemas, oauth2
 from ..database import get_db
 
-router = APIRouter(
-    prefix = "/posts",
-    tags=['Posts']
-)
+router = APIRouter()
 
 
 @router.get("/", response_model=List[schemas.PostOut])
