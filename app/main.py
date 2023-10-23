@@ -21,15 +21,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(post.router)
-app.include_router(user.router)
+app.include_router(post.router, prefix = "/posts")
+app.include_router(user.router, prefix="/users")
 app.include_router(auth.router)
-app.include_router(vote.router)
+app.include_router(vote.router, prefix="/vote")
 
 
 @app.get("/")
-async def root():
-    return {"message": "Hey this is api testing...Now we testing the server"}
+def root():
+    return {"message": "Hey this is api testing..."}
 
 
 
