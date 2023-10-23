@@ -13,7 +13,6 @@ colorama
 cryptography
 dnspython
 ecdsa
-email-validator
 fastapi
 graphene
 graphql-core
