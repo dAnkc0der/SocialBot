@@ -13,11 +13,7 @@ colorama
 cryptography
 dnspython
 ecdsa
-email-validator
 fastapi
-graphene
-graphql-core
-graphql-relay
 greenlet
 h11
 httptools
@@ -36,13 +32,11 @@ pycparser
 pydantic
 python-dateutil
 python-dotenv
-python-editor
 python-jose
 python-multipart
 PyYAML
 requests
 rsa
-Rx
 six
 SQLAlchemy
 starlette
